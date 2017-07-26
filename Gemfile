@@ -21,6 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'paperclip', '~> 4.2'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
+gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -31,6 +32,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'simple_form'
 gem 'devise'
+gem 'bcrypt', platforms: :ruby
+gem 'haml'
+gem 'jquery-turbolinks'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass', '~> 3.3.5'
@@ -40,6 +44,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 group :development do
