@@ -62,7 +62,7 @@
   border-style: solid;
   border-radius: 3px;
   border-width: 1px;
-  margin-bottom: 60px;
+  margin-bottom: 0x;
   .post-head {
     flex-direction: row;
     height: 64px;
@@ -164,4 +164,94 @@
 .img-responsive {
   margin: 0 auto;
   width: 640px;
+}
+html {
+  height: 100%;
+}
+
+.registration-bg {
+  padding-top: 4em;
+  height: 100%;
+  background-image: image-url('regbackg.jpg');
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.log-in{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  border: none;
+}
+
+.panel {
+  border-radius: 1px;
+  border: 1px solid #e6e6e6;
+  padding: 10px 0;
+  margin-top: 12px;
+  width: 350px;
+}
+
+.panel-heading{
+  h1 {
+    text-align: center;
+  }
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+.alert {
+  margin-bottom: 0px;
+}
+.input-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+    color: #262626;
+    background: 0 0;
+    border: 1px solid #efefef;
+    height: 34px;
+    box-sizing: border-box;
+    padding: 9px 8px 7px;
+    font-size: 14px;
+    line-height: 1.3333333;
+    border-radius: 3px;
+    margin-bottom: -7px;
+}
+h2 {
+  font-size: 17px;
+  line-height: 20px;
+  margin: 0 40px 0px;
+  text-align: center;
+  color: #999;
+  font-weight: 600;
+}
+
+h1.insta {
+  margin: 24px auto 8px;
+  background-image: url(https://www.instagram.com/static/sprites/core/ac8014.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 51px;
+  width: 175px;
+}
+.panel-body {
+  padding: 15px 45px 11px;
+}
+.btn-block {
+  -webkit-appearance: none;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 12px;
+  outline: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  background: #3897f0;
+  border-color: #3897f0;
+  margin-top: 25px;
 }
