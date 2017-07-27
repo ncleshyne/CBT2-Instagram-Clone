@@ -30,13 +30,20 @@
 
 .navbar-brand {
   a {
+    margin-left: -12px;
+    margin-top: -23px;
+    display: block;
+    height: 35px;
+    width: 176px;
     color: #125688;
   }
 }
 
 .navbar-default {
   background-color: #fff;
-  height: 54px;
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+  height: 77px;
+
   .navbar-nav li a {
     color: #125688;
   }
@@ -328,4 +335,51 @@ h1.insta {
 }
 .nav {
   text-align: right;
+}
+.inst {
+  margin-top: 19px;
+  background-image: url(https://www.instagram.com/static/sprites/core/ac8014.png);
+  background-position: -177px 0;
+  height: 35px;
+  width: 176px;
+}
+.nwpst {
+  margin-top: 19px;
+  background-image: url(https://www.instagram.com/static/sprites/core/166267.png);
+  background-repeat: no-repeat;
+  background-size: 415px 391px;
+  background-position:-201px -112px;
+  height: 21px;
+  width: 24px;
+}
+ul.nav.navbar-nav.navbar-right {
+  list-style: none;
+}
+.prof {
+  margin-top: 19px;
+  background-image: url(https://www.instagram.com/static/sprites/core/ac8014.png);
+  background-repeat: no-repeat;
+  background-position: -286px -289px;
+  height: 24px;
+  width: 24px;
+  a {
+    margin-left: -12px;
+    margin-top: -23px;
+    display: block;
+    height: 24px;
+    width: 24px;
+  }
+}
+button.btn.btn-default {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin-top: 18px;
+  font-size: 22px;
+  -webkit-text-stroke: 1px white;
+}
+.log {
+  margin-top: -31px;
+  display: block;
+  width: 48px;
 }
