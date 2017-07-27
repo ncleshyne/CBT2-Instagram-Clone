@@ -34,6 +34,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'bcrypt', platforms: :ruby
 gem 'haml'
+gem 'kaminari', '~> 0.16.3'  
 gem 'jquery-turbolinks'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
