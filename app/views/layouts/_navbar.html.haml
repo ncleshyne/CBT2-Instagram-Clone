@@ -5,7 +5,7 @@
         %span.sr-only Toggle Navigation
         %span.icon-bar
         %span.icon-bar
-      .navbar-brand= link_to "Photogram", root_path
+      .navbar-brand= link_to "Instagram", root_path
     .collapse.navbar-collapse#bs-navbar-collapse-1
       %ul.nav.navbar-nav.navbar-right
       - if user_signed_in?
@@ -14,7 +14,7 @@
         %li
           = link_to "Logout", destroy_user_session_path, method: :delete
       - else
-        %li
+        %li.login
           = link_to "Login", new_user_session_path
-        %li
+        %li.register
           = link_to "Register", new_user_registration_path

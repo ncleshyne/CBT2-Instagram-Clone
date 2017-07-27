@@ -17,6 +17,5 @@
         %p
           = pluralize @user.posts.count, 'post'
 
-
 -@posts.each do |post|
   = render 'posts/post', post: post
