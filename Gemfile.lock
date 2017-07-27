@@ -236,7 +236,7 @@ DEPENDENCIES
   kaminari (~> 0.16.3)
   paperclip (~> 4.2)
   pg
-  puma (~> 3.7)
+  puma
   rails (~> 5.1.2)
   rails_12factor
   sass-rails (~> 5.0)
