@@ -1,6 +1,7 @@
 class ProfilesController < ApplicationController
-  before_action :set_user  
   before_action :authenticate_user!
+  before_action :set_user  
+  before_action :owned_profile, only: [:edit, :update]
   def show
   @user = User.find_by(user_name: params[:user_name])
   @posts = User.find_by(user_name: params[:user_name]).posts.order('created_at DESC')
