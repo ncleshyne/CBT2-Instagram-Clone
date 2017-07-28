@@ -236,7 +236,7 @@ h2 {
 
 h1.insta {
   margin: 24px auto 8px;
-  background-image: url(https://www.instagram.com/static/sprites/core/ac8014.png);
+  background-image: image-url("ac8014.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   height: 51px;
@@ -338,14 +338,14 @@ h1.insta {
 }
 .inst {
   margin-top: 19px;
-  background-image: url(https://www.instagram.com/static/sprites/core/ac8014.png);
+  background-image: image-url("ac8014.png");
   background-position: -177px 0;
   height: 35px;
   width: 176px;
 }
 .nwpst {
   margin-top: 19px;
-  background-image: url("166267.png");
+  background-image: image-url("166267.png");
   background-repeat: no-repeat;
   background-size: 415px 391px;
   background-position:-201px -112px;
@@ -357,7 +357,7 @@ ul.nav.navbar-nav.navbar-right {
 }
 .prof {
   margin-top: 19px;
-  background-image: url("c8014.png");
+  background-image: image-url("ac8014.png");
   background-repeat: no-repeat;
   background-position: -286px -289px;
   height: 24px;
