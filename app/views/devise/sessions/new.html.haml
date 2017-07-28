@@ -1,7 +1,7 @@
-.login-bg
+%body.login-bg
   .container
     .row
-      .col-md-4.col-md-offset-4
+      .col-md-6.col-md-offset-6
         .log-in.panel
           .panel-heading
             %h1.insta
@@ -12,3 +12,10 @@
               = f.input :password, required: true, label: false, placeholder: 'Password', input_html: { class: 'input-lg' }
               = f.input :remember_me, as: :boolean if devise_mapping.rememberable?
               = f.button :submit, "Log in", class: 'btn-lg btn-info btn-block'
+  .container
+    .row
+      .col-md-6.col-md-offset-6
+        .log-in.sec
+          .sign
+            Don't have an account yet?
+            %a{:href => "sign_up"} Sign up

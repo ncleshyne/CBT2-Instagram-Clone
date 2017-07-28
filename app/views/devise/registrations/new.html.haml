@@ -1,7 +1,7 @@
-.registration-bg
+%body.registration-bg
   .container
     .row
-      .col-md-4.col-md-offset-4
+      .col-md-6.col-md-offset-6
         .log-in.panel
           .panel-heading
             %h1.insta
@@ -14,3 +14,10 @@
               = f.input :password, required: true, label: false, placeholder: 'Password', input_html: { class: 'input-lg' }
               = f.input :password_confirmation, required: true, label: false, placeholder: 'Confirm Password', input_html: { class: 'input-lg' }
               = f.button :submit, "Sign up", class: 'btn-lg btn-info btn-block'
+  .container
+    .row
+      .col-md-6.col-md-offset-6
+        .log-in.sec
+          .sign
+            Have an account?
+            %a{:href => "sign_in"} Log in

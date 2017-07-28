@@ -17,11 +17,6 @@
    height: 100%;
  }
  body {
-   height: 100%;
-   background-color: #fafafa;
-   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
- }
- body {
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
@@ -176,14 +171,17 @@ html {
   height: 100%;
 }
 
-.registration-bg {
-  padding-top: 4em;
+.registration-bg, .login-bg {
+  padding-top: 0;
   height: 100%;
-  background-image: image-url('regbackg.jpg');
+  background-image: image-url("bg.jpg");
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
+  background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
+  background-position: center;
 }
 
 .log-in{
@@ -197,7 +195,7 @@ html {
   border-radius: 1px;
   border: 1px solid #e6e6e6;
   padding: 10px 0;
-  margin-top: 12px;
+  margin-top: 35px;
   width: 350px;
 }
 
@@ -211,6 +209,8 @@ html {
 }
 
 .alert {
+  font-style: italic;
+  color: #fff;
   margin-bottom: 0px;
 }
 .input-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
@@ -377,6 +377,21 @@ button.btn.btn-default {
   margin-top: 18px;
   font-size: 22px;
   -webkit-text-stroke: 1px white;
+}
+
+.like-button {
+  background-image: image-url("51760f.png");
+  background-repeat: no-repeat;
+  background-position: -99px -349px;
+  height: 24px;
+  width: 24px;
+}
+.sec {
+  background-color: #fff;
+  border-radius: 1px;
+  border: 1px solid #e6e6e6;
+  padding: 18px 0;
+  width: 350px;
 }
 .log {
   margin-top: -31px;

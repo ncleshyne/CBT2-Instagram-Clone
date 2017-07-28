@@ -1,22 +1,17 @@
-%nav.navbar.navbar-default
-  .container-fluid.navbar-container
-    .navbar-header
-      %button.navbar-toggle.collapsed{"data-target" => "#bs-navbar-collapse-1", "data-toggle" => "collapse", type: "button"}
-        %span.sr-only Toggle Navigation
-        %span.icon-bar
-        %span.icon-bar
-      .navbar-brand.inst= link_to " ", root_path
-    .collapse.navbar-collapse#bs-navbar-collapse-1
-      %ul.nav.navbar-nav.navbar-right
-        - if user_signed_in?
+- if user_signed_in?
+  %nav.navbar.navbar-default
+    .container-fluid.navbar-container
+      .navbar-header
+        %button.navbar-toggle.collapsed{"data-target" => "#bs-navbar-collapse-1", "data-toggle" => "collapse", type: "button"}
+          %span.sr-only Toggle Navigation
+          %span.icon-bar
+          %span.icon-bar
+        .navbar-brand.inst= link_to " ", root_path
+      .collapse.navbar-collapse#bs-navbar-collapse-1
+        %ul.nav.navbar-nav.navbar-right
           %li.nwpst
             = link_to " ", new_post_path
           %li.out
             %button.btn.btn-default.btn-lg{"aria-label" => "Right Align", :type => "button"}
               %span.glyphicon.glyphicon-off{"aria-hidden" => "true"}
             = link_to " ", destroy_user_session_path, class: 'log', method: :delete
-        - else
-          %li
-            = link_to "Login", new_user_session_path
-          %li
-            = link_to "Register", new_user_registration_path
