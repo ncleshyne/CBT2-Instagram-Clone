@@ -18,6 +18,6 @@
 
 ## Screenshots
 <h1 align="center"><img width="350" height="80" alt="Nicole Shayne" src="images/insta1.png">Authentication using Devise</h1>
-
+![Authentication page](images/insta1.png "Authentication Page")
 ## Contribute
 Fork and Pull request.
