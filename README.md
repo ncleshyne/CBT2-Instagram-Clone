@@ -17,7 +17,7 @@
   * Edit posts
 
 ## Screenshots
-![Authentication using Devise](images/css.png)
+<h1 align="center"><img width="350" height="80" alt="Nicole Shayne" src="images/insta1.png">Authentication using Devise</h1>
 
 ## Contribute
 Fork and Pull request.
